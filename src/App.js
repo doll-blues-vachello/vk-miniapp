@@ -15,7 +15,7 @@ import BitSaber from "./panels/BitSaber";
 import "./app.css";
 
 const App = () => {
-  const [activePanel, setActivePanel] = useState("BitSaber");
+  const [activePanel, setActivePanel] = useState("home");
   const [fetchedUser, setUser] = useState(null);
   const [popout, setPopout] = useState(null);
 
