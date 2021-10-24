@@ -13,10 +13,10 @@ const TeamHeader = () => {
                       {'</> Yeah, Bash!'}
                     </h1>
                   </div>
-                  <div>
+                  <div className='sticky bottom-0'>
                     <p>Special for Vezdecode, 2021</p>
                     <img
-                      className='h-10 my-2 bouncer mx-auto sticky bottom-0'
+                      className='h-10 my-2 bouncer mx-auto'
                       src={arrow}
                     ></img>
                   </div>
